@@ -1,5 +1,5 @@
 # Building a small game in Unity's ECS
-This guide covers building a small video game in Unity's ECS. This guide applies to both 2D and 3D games. The current version of this guide targets Unity's 2018.1.0b12 ECS preview build. At this time, ECS in Unity is still incredibly new. While I aim to provide the best guidance possible, I do not have enough information nor experience to provide the absolute best practices. For any questions or curiosities, the following links contain the best resources to understand this topic: [Samples and Documentation](https://github.com/Unity-Technologies/EntityComponentSystemSamples)  [Forums](https://forum.unity.com/forums/entity-component-system-and-c-job-system.147/)
+This guide covers building a small video game in Unity's ECS. This guide applies to both 2D and 3D games. The current version of this guide targets Unity's 2018.1.2 release build. At this time, ECS in Unity is still incredibly new. While I aim to provide the best guidance possible, I do not have enough information nor experience to provide the absolute best practices. For any questions or curiosities, the following links contain the best resources to understand this topic: [Samples and Documentation](https://github.com/Unity-Technologies/EntityComponentSystemSamples)  [Forums](https://forum.unity.com/forums/entity-component-system-and-c-job-system.147/)
 
 For this guide, I will be using a Wii Play Tanks clone as an example. However, any game that involves constant updating will work really well. I am writing this guide targeting new developers familiar with basic game development concepts but new to programming and ECS fundamentals. However, I'll include some tips for some more advanced concepts and implementations along the way.
 
@@ -16,7 +16,7 @@ In my case, I want to recreate much of the fun experience of Wii Play Tanks. Lon
 ###  Step 2. Install your Tools
 Now that you got enough of an idea in your head where you are ready to start this adventure, download an appropriate version of Unity. Start a new project when you are ready.
 
-*For the 2018.1.0.12b, once you open a project, you will need to need to go to Edit->Project Settings->Player and in the "Other Settings" category you need to change the Scripting Runtime to use Stable .NET 4.x rath than Legacy .NET 3.5. You'll then want to replace the manifest.json in your Unity project's packages folder with the manifest.json from one of Unity's ECS examples. You may have to re-import all assets in your project to get it to work. You will also probably have to update Visual Studio and possibly install the .NET 4.0-4.6 kits in Visual Studio. But if everything works correctly, you should have 0 red errors in the console window. In Visual Studio, you can test if everything is working by adding*
+*Once you open a project, you may need to need to go to Edit->Project Settings->Player and in the "Other Settings" category you need to change the Scripting Runtime to use Stable .NET 4.x rath than Legacy .NET 3.5. You'll then want to open the Package Manager Window from the toolbar and add the Entities Preview Package. You may have to re-import all assets in your project to get it to work. You will also probably have to update Visual Studio and possibly install the .NET 4.0-4.6 kits in Visual Studio. But if everything works correctly, you should have 0 red errors in the console window. In Visual Studio, you can test if everything is working by adding*
 ```csharp
 using Unity.Mathematics;
 
@@ -33,7 +33,7 @@ Pick the entities that you need for your alpha version of your game. For each en
 
 **Shared Data** - These are more complex pieces of data that are shared among several entities. These can include database arrays, meshes, materials, tags, ect. *Shared means SHARED! If every entity in your game has unique "shared" data, your game is going to slow way down!*
 
-**Game Object Components** - Only use these if you absolutely NEED them. Every entity that includes these becomes a Game Object, which means that can't be created or destroyed easily on the fly, and you lose a lot of control over them. Entities that are also Game Objects are called **hybrid ECS** entities, compared to **pure ECS** entities that do not have associated Game Objects.
+**Game Object Components** - Only use these if you absolutely NEED them. Every entity that includes these becomes a Game Object, which means they can't be created or destroyed easily on the fly, and you lose a lot of control over them. Entities that are also Game Objects are called **hybrid ECS** entities, compared to **pure ECS** entities that do not have associated Game Objects.
 
 ##### Special Cases
 **Transforms** - If you realize an entity has become exclusively a Game Object with built-in Unity components only, you might as well use a Transform component. *The only case I can imagine this applying is for an environment piece that has physics and you are using Unity's built-in physics.* Otherwise, you can represent basic transformations using simpler data types in ECS. If you have complicated hierarchies, you might consider using Game Objects. But it is possible to implement a scene graph in ECS. 
@@ -42,19 +42,25 @@ Pick the entities that you need for your alpha version of your game. For each en
 
 **Audio** - I'm still trying to figure this one out. Worst comes to worst I'll create an audio pool of game objects that play sounds for me at different points in the scene. **Do not use AudioSource.PlayClipAtPoint()! The implementation is horrible! It creates and destroys a Game Object at every call!**
 
-**Rendering** - Unity has a built-in MeshInstancedRenderer and MeshInstancedRendererSystem for handling basic 3D. It does not have many features currently, but it gets the job done without much work. There's an equivalent made by a forum member for 2D which works but isn't optimized. Food Processor was designed with ECS-like concepts in mind. With some work, it can be extended to provide some high-quality graphics in a pure or hybrid ECS environment. I also have a design sketch for an equivalent 2D implementation. If you need an advanced implementation for graphics, let me know and we'll come up with a solution over the summer!
+**Rendering** - Unity has a built-in MeshInstancedRenderer and MeshInstancedRendererSystem for handling basic 3D. It does not have many features currently, but it gets the job done without much work. There's an equivalent made by a forum member for 2D which works but isn't optimized. Food Processor was designed with ECS-like concepts in mind. With some work, it can be extended to provide some high-quality graphics in a pure or hybrid ECS environment. I also have a design sketch for an equivalent 2D implementation. If you need an advanced implementation for graphics, let me know and we'll come up with a solution!
 
 #### Example
-Todo
+Since I want my game to eventually support realtime level modifications over a network, I am building my level using pure ECS. So each entity in my environment will have a Position (2D) and an EntityType which is an enumeration I will be using to determine appropriate collision resolution. EntityType is shared, because it is a tag that helps me group objects together and won't change during runtime.
+
+Other optional components include a TransformMatrix, PositionY, and MeshInstanceRenderer for making objects visible and correctly placed in 3D space, and ECSCollider which is a box collider struct for areas that require 2D collision.
+
+A bullet will have a Position, a Velocity, a Direction, a Rebounds count, a Lifetime (for large maps where bullets can go offscreen), an ECSCollider, a PositionY, a PlayerID, an EntityType and a MeshInstanceRenderer.
 
 ### Step 4.  Create your Artwork
 This artwork does not have to be that good. It could just be placeholder. That's especially true if you are just using simple geometry for colliders. Get the bare minimum amount of artwork you need to create your alpha version and move on.
 
 #### Example
-For my tanks game, I only need very simple low poly models. I can do this easily in Blender. In the future I will need some more advanced rendering tech, but for testing gameplay the built-in resources will be sufficient.
+For my tanks game, I only need very simple low poly models. I dit this fairly easily in Blender. In the future I will need some more advanced rendering tech, but for testing gameplay the built-in resources will be sufficient.
+
+![Tank Prototype in Blender](https://github.com/SDSU-GCO/SDSU-GCO.github.io/blob/master/Images/Tank_Model_In_Blender.PNG)
 
 ### Step 5.  Convert your Data from Step 3 into Code
-You want to create one or more Unity C# scripts for this. The script name does not matter here, so go crazy. Modify your script so that it looks like something like the below snippet. Change NameSpace name to something short and sweet, like "GCO", your intitials, or your project's initials. This should be the same for every script you write in your project. *Advanced C#-ers, do your style!*
+You want to create one or more Unity C# scripts for this. The script name does not matter here, so go crazy. Modify your script so that it looks like something like the below snippet. Change the namespace name to something short and sweet, like "GCO", your intitials, or your project's initials. This should be the same for every script you write in your project. *Advanced C#-ers, do your style!*
 
 ```csharp
 using System.Collections;
@@ -84,7 +90,7 @@ namespace GCO
 
     // The general syntax for each piece of data is as follows:
 
-    public struct NameOfDateType : UnityInterface
+    public struct NameOfDataType : UnityInterface
     {
         // This is where you declare the actual pieces of primitive data. 
         // Normally you only have one piece in these. 
@@ -216,7 +222,7 @@ By "level" I am referring to static objects, which also includes things such as 
 
 *Tangent: In Running Water back in the day, we encoded not just the collision information but also the spawn information in a texture synced with the level artwork. As the background scrolled, we would scan just a little ways beyond the right of the screen for magic collision pixels and then use that to spawn our animated water and poison droplets.*
 
-Todo: Go into more detail for different use cases.
+Depending on the type of game you are making, how you design your level can be quite unique. For my game, I'm just doing things the old fashioned way and then running a converter script. But for a 2D tile based game, building a tilemap out of a pixel art image in which each pixel represents a tile will provide an interesting and fast workflow. You could also use one of the many tilemap editors out there as long as you are familiar with the editor's output format. 
 
 Todo: Add example with images of level design for Tanks.
 
