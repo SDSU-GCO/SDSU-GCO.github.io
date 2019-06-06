@@ -64,6 +64,18 @@ Download then install [Git LFS](https://git-lfs.github.com).  This tool allows f
 
 ## Tool Configuration
 
+Open your "**.gitconfig**" file and add these lines to it:
+```ini
+	
+	[merge]
+    tool = unityyamlmerge
+
+    [mergetool "unityyamlmerge"]
+    trustExitCode = false
+    cmd = 'C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+
+	```
+
 ## Repository Configuration
 
 ### LFS
