@@ -15,6 +15,8 @@ This whole guide might not apply to everyone depending on your preffered tools a
 
 [Installing Git CLI and LFS](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-git-cli-and-lfs)
 
+[Installing Git CLI and LFS](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#meld)
+
 **Configuration**
 
 [Tool Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#tool-configuration)
@@ -60,26 +62,50 @@ Download then install [Git LFS](https://git-lfs.github.com).  This tool allows f
 
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
 
-## TortoiseGit
-Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows you to resolve merge conflicts that UnityYAMLMerge can't handle automatically
+## Meld
+Download then install [meld](http://meldmerge.org/).  This tool allows you to resolve merge conflicts that UnityYAMLMerge can't handle automatically
 
-![Tortoise Git](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/TortoiseGit.png)
+![meld button](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/meld.png)
+
+**IMPORTANT!!!** - Meld version 3.2.0 which is the current version as of this guide seems to have a bug opening diffs automatically via CLI from other programs!  Below is a workaround:
+
+### Fix Meld library
+	
+By default a script looks for a dll in the wrong location resulting in the following error:
+	
+![meld button](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/meldE1.png)
+	
+#### Windows
+on windows this can be fixed by opening an administrator CMD.exe prompt.  Then navigate to the meld folder.  By default this folder is located at "**C:\Program Files (x86)\Meld**".  Then once you are at the right directory path, and ONLY IF YOU ARE IN YOUR MELD DIRECTORY, run the following command ```bat
+mklink libgirepository-1.0-1.dll lib\libgirepository-1.0-1.dll
+``` This will create a symlink to the file redirecting the script that is looking for it.  
+	
+#### Other OS
+If you are not on windows then navigate to the **\Meld\\** folder in a file explorer and open **\lib\\**.  Then locate the file "**libgirepository-1.0-1.dll**" and move it to the parent directory(**\Meld\\**).  This should resolve the error.
+	
+This should leave you with the following error when running:
+![meld button](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/meldE2.png)
+This error appears to be beneign and can be reasonably ignored.
 
 # Configuration
 
 ## Tool Configuration
 
-### Tortoise Git Merge
+### Meld Merge
 
 Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or your custom unity install path and open "**mergespecfile.txt**"  Add these lines to it:
 
 ```cmd
-unity use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
-prefab use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
-cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
-* use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
+unity use "C:\Program Files (x86)\Meld\Meld.exe" "%r" "%b" "%l" -o "%d"
+prefab use "C:\Program Files (x86)\Meld\Meld.exe" "%r" "%b" "%l" -o "%d"
+cs use "C:\Program Files (x86)\Meld\Meld.exe" "%r" "%b" "%l" -o "%d"
+
+# Default fallbacks for unknown files. First tool found is used.
+
+# Meld Merge
+* use "C:\Program Files (x86)\Meld\Meld.exe" "%r" "%b" "%l" -o "%d"
 ```
-If you changed the TortoiseGit install path use that instead of "**%programs%**".
+If you changed the Meld install path use that instead of "**C:\Program Files (x86)**".
 
 If "**unity use...**" and/or "**prefab use...**" already exist simply delete them and replace them with the above lines.
 
