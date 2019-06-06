@@ -34,6 +34,8 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 **Video Tutorials**
 
+[How to Make a Unity Game - For Beginners (2019](https://www.youtube.com/watch?v=BL2u_6sSvcM&list=PLB5_EOMkLx_WCGalAUeKXA1I-qQqYY_Sk)
+
 [Brakeys' Videos](https://www.youtube.com/user/Brackeys/videos)
 
 [Unity3d College](https://www.youtube.com/channel/UCX_b3NNQN5bzExm-22-NVVg/videos)
