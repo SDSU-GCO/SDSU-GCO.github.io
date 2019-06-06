@@ -20,15 +20,15 @@ Visit [Download Game Engine]https://unity3d.com/get-unity/download/archive and d
 ![Unity Game Engine Download](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/UnityGameEngineDownload.png)
 
 ## Installing Github Desktop
-Visit [Download Github Desktop]https://desktop.github.com/ and download the installer for your system and follow the installation wizard.
+Visit [Download Github Desktop]https://desktop.github.com and download the installer for your system and follow the installation wizard.
 ![Github Desktop](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GithubDesktop.png)
 
 ## Installing Git CLI and LFS
 
 ### Git
-Download then install [Git CLI]https://git-scm.com/ ***Note that on windows some GCO members prefer to use git from CMD.EXE.  If you would like this make sure to select it at installation***
+Download then install [Git CLI]https://git-scm.com ***Note that on windows some GCO members prefer to use git from CMD.EXE.  If you would like this make sure to select it at installation***
 ![Git CLI](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitCLI.png)
 
 ### LFS
-Download then install [Git LFS]https://git-lfs.github.com/
+Download then install [Git LFS]https://git-lfs.github.com
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
