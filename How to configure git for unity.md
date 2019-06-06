@@ -71,7 +71,7 @@ Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows
 
 Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or your custom unity install path and open "**mergespecfile.txt**"  Add these lines to it:
 
-```ini
+```bat
 unity use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 prefab use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
