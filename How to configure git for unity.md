@@ -10,9 +10,11 @@ This whole guide might not apply to everyone depending on your preffered tools a
 GCO recomends managing unity installs with unity hub.  If you know you don't use unity hub you can skip this step.
 
 ### Unity Hub
+
 Visit https://unity3d.com/get-unity/download and download Unity Hub. ***The download button is to the right of the standard unity install***.  Once downloaded launch the executable and follow the installation wizard.
 ![Unity Hub Download](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/UnityHubDownload.png)
 
 ### Unity Game Engine
+
 Visit https://unity3d.com/get-unity/download/archive and download the appropriate version of Unity for your organization by clicking the "**Unity Hub**" button. ***In this case we will use Unity 2019.1.4f1 as our example***.  Allow the webpage to open Unity Hub.  Then simply complete the installation and follow any prompts from Unity Hub.
 ![Unity Game Engine Download](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/UnityGameEngineDownload.png)
