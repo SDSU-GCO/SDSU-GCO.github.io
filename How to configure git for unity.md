@@ -47,6 +47,25 @@ Download then install
 ![Git CLI](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitCLI.png)
 
 ### LFS
-Download then install 
-[Git LFS](https://git-lfs.github.com)
+Download then install [Git LFS](https://git-lfs.github.com).  This tool allows for large asset files such as sounds, images, and other large files to be stored more efficiently.
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
+
+##
+
+## Tool Configuration
+
+## Repository Configuration
+
+### LFS
+
+This portion of the configuration must be completed for each repository.  First, launch the CLI
+
+![Open CLI](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/OpenCLI.png)
+
+Then Type `git lfs install` and hit enter as shown below:
+![git install lfs](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/installGitLFS.png)
+
+### .gitignore and .gitattributes
+
+You should include a .gitignore to tell git not to sync unneccisary/temporary files and user specific files. You should also use a .gitattributes file to control what files are managed by lfs.  These are the [.gitignore(CLICK ME!)] and [.gitattributes(CLICK ME!)] that GCO uses.
+
