@@ -58,15 +58,34 @@ Download then install [Git LFS](https://git-lfs.github.com).  This tool allows f
 
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
 
-##
+##TortoiseGit
+Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows you to resolve merge conflicts that UnityYAMLMerge can't handle automatically
+
+![Tortoise Git](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/TortoiseGit.png)
 
 # Configuration
 
 ## Tool Configuration
 
+
+Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or your custom unity install path and open "**mergespecfile.txt**"  Add these lines to it:
+
+```ini
+unity use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
+prefab use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
+cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
+
+# Tortoise Git Merge
+* use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
+```
+If you changed the TortoiseGit install path use that instead.
+
+If "**unity use...**" and/or "**prefab use...**" already exist simply delete them and replace them with the above lines.
+
+### UnityYamlMerge
+
 Open your "**.gitconfig**" file and add these lines to it:
 ```ini
-
     [merge]
     tool = unityyamlmerge
 
@@ -74,6 +93,9 @@ Open your "**.gitconfig**" file and add these lines to it:
     trustExitCode = false
     cmd = 'C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
 ```
+
+Please note that you may need to change "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1**" to the location where you installed unity if you did not install to the standard location or you aren't using unity hub.
+
 
 ## Repository Configuration
 
@@ -96,3 +118,4 @@ You should include a .gitignore to tell git not to sync unneccisary/temporary fi
 ![Add .gitignore and .gitAttributes](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/AddConfigFiles.png)
 
 
+For further useage instructions please see: [How To GIT Better](https://sdsu-gco.github.io/How%20to%20git%20better.html)
