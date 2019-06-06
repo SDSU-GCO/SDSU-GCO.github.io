@@ -67,7 +67,7 @@ Download then install [Git LFS](https://git-lfs.github.com).  This tool allows f
 Open your "**.gitconfig**" file and add these lines to it:
 ```ini
 
-	[merge]
+[merge]
     tool = unityyamlmerge
 
     [mergetool "unityyamlmerge"]
