@@ -57,7 +57,7 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 [Blender Beginner Tutorial Series](https://www.youtube.com/watch?v=d5luANNKuEc&list=PLs2aOcA-EaLNX5j2yxVQhEBpFgD3zDR9P&index=1)
 
-[Doughnuts(Begginer Tutorial)]https://www.youtube.com/watch?v=JYj6e-72RDs
+[Doughnuts(Begginer Tutorial)](https://www.youtube.com/watch?v=JYj6e-72RDs)
 
 [Intermediate Blender Tutorial Series](https://www.youtube.com/watch?v=yi87Dap_WOc&list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
 
