@@ -11,15 +11,15 @@ This whole guide might not apply to everyone depending on your preffered tools a
 
 [Installing Unity](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-unity)
 
-[Installing Github Desktop](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Installing-Github-Desktop)
+[Installing Github Desktop](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-github-desktop)
 
-[Installing Git CLI and LFS](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-Git-CLI-and-LFS)
+[Installing Git CLI and LFS](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-git-cli-and-lfs)
 
 **Configuration**
 
-[Tool Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Tool-Configuration)
+[Tool Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#tool-configuration)
 
-[Repository Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Repository-Configuration)
+[Repository Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#repository-configuration)
 
 
 
