@@ -28,11 +28,14 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 [Making a Visual Novel for Free \[SERIES\]](https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6)
 
-[Unity For Beginners](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)
-
 [Brakeys' Videos](https://www.youtube.com/user/Brackeys/videos)
 
 [Unity3d College](https://www.youtube.com/channel/UCX_b3NNQN5bzExm-22-NVVg/videos)
+
+[Unity For Beginners(OLD-ish)](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)
+
+[Unity 2D RPG Tutorial(OLD)](https://www.youtube.com/watch?v=NNpLsimyu3I&list=PL_4rJ_acBNMH3SExL3yIOzaqj5IP5CJLC)
+
 
 # Blender(2.79)
 
@@ -63,8 +66,15 @@ Meld can visually show diffs and visually resolve text merge conflicts.
   
 - [RPG Graphics(Charachter and outfit) 10](https://youtu.be/4p5W9fShkCo)
 
+[Introduction: Sculpting in Blender (Tutorial EN)}(https://www.youtube.com/watch?v=tZnUgt659oI)
+
+[Lizard Mage: Modelling, Texturing, Rigging (Blender Timelapse)](https://www.youtube.com/watch?v=6lqak2bFkpA)
+
+[Nokado Katoji](https://www.youtube.com/channel/UC9oMeN2TPWsKveESiOFad3Q/videos)
 
 [Yan Sculpts](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
+
+[Sculpting of Dragon's head (Soft: Blender 2.74)](https://www.youtube.com/watch?v=LBtt6n0sah0)
 
 [Blender Guru](https://www.youtube.com/user/AndrewPPrice/videos)
 
