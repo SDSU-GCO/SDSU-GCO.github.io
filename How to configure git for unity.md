@@ -2,8 +2,14 @@
 
 This is a guide for the initial configuration of git that GCO uses.  Please note that this guid is for github desktop with git cli and lfs support using UnityYamlMerge to resolve conflicts which falls back to tourtoise git.  
 
-##Disclaimer!
+## Disclaimer!
 This whole guide might not apply to everyone depending on your preffered tools and workflow, however feel free to use any parts of this guide.  This guide is provided under the understanding that we are not responsible if something goes wrong and we do not garentee the correctness/accuracy of this guide.
+
+## Table of Contents
+[Installing Unity]https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-unity
+[Installing Github Desktop]https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Installing-Github-Desktop
+[Installing Git CLI and LFS]https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-Git-CLI-and-LFS
+
 
 ## Installing Unity
 
