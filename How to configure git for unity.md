@@ -119,6 +119,10 @@ Open your "**.gitconfig**" file and add these lines to it:
     [mergetool "unityyamlmerge"]
     trustExitCode = false
     cmd = 'C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+	
+    [mergetool]
+    keepBackup = false
+    prompt = false
 ```
 
 Please note that you may need to change "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1**" to the location where you installed unity if you did not install to the standard location or you aren't using unity hub.
