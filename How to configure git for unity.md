@@ -78,7 +78,7 @@ cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -
 # Tortoise Git Merge
 * use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 ```
-If you changed the TortoiseGit install path use that instead.
+If you changed the TortoiseGit install path use that instead of "**%programs%**".
 
 If "**unity use...**" and/or "**prefab use...**" already exist simply delete them and replace them with the above lines.
 
