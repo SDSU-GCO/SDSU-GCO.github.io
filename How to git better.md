@@ -257,3 +257,8 @@ git rebase -i HEAD~4
 After updating which commits to squash and which to commit, you'll then be able to update the messages.
 
 ### Got your own favorites? Add them below!
+
+Following our [How to configure git for unity](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#tool-configuration) guide and running this command can often fix merge conflicts.
+```
+git mergetool
+```
