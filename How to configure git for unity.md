@@ -154,6 +154,6 @@ In project settings be sure to set meta files to be visible and force text seria
 ![Add .gitignore and .gitAttributes](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/forceText.png)
 
 # Usage
-For further useage instructions please see: [How To GIT Better](https://sdsu-gco.github.io/How%20to%20git%20better.html)
+For Command Line Interface help, please see: [How To GIT Better](https://sdsu-gco.github.io/How%20to%20git%20better.html)
 
 For GUI tutorials please see the Version Control section of [Tutorials](https://sdsu-gco.github.io/Tutorials.html)
