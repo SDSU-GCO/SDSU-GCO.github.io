@@ -1,11 +1,11 @@
-* # How to configure git for unity
+# How to configure git for unity
 
-	* This is a guide for the initial configuration of git that GCO uses.  Please note that this guid is for github desktop with git cli and lfs support using UnityYamlMerge to resolve conflicts which falls back to tourtoise git.  Initially this guide will be more for windows users, however if we can find good alternatives we may update this guide in the future.
+	This is a guide for the initial configuration of git that GCO uses.  Please note that this guid is for github desktop with git cli and lfs support using UnityYamlMerge to resolve conflicts which falls back to tourtoise git.  Initially this guide will be more for windows users, however if we can find good alternatives we may update this guide in the future.
 
-	* ## Disclaimer!
-		* This whole guide might not apply to everyone depending on your preffered tools and workflow, however feel free to use any parts of this guide.  This guide is provided under the understanding that we are not responsible if something goes wrong and we do not garentee the correctness/accuracy of this guide.
+	## Disclaimer!
+		This whole guide might not apply to everyone depending on your preffered tools and workflow, however feel free to use any parts of this guide.  This guide is provided under the understanding that we are not responsible if something goes wrong and we do not garentee the correctness/accuracy of this guide.
 	
-	* ## Table of Contents
+	## Table of Contents
 	
 		* **Downloads and Installation**
 		
