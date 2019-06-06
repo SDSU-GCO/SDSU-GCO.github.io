@@ -58,7 +58,7 @@ Download then install [Git LFS](https://git-lfs.github.com).  This tool allows f
 
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
 
-##TortoiseGit
+## TortoiseGit
 Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows you to resolve merge conflicts that UnityYAMLMerge can't handle automatically
 
 ![Tortoise Git](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/TortoiseGit.png)
@@ -67,6 +67,7 @@ Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows
 
 ## Tool Configuration
 
+### Tortoise Git Merge
 
 Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or your custom unity install path and open "**mergespecfile.txt**"  Add these lines to it:
 
@@ -74,8 +75,6 @@ Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or yo
 unity use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 prefab use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
-
-# Tortoise Git Merge
 * use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 ```
 If you changed the TortoiseGit install path use that instead of "**%programs%**".
