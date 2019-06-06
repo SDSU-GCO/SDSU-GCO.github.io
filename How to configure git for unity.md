@@ -7,50 +7,60 @@ This whole guide might not apply to everyone depending on your preffered tools a
 
 ## Table of Contents
 
+**Downloads and Installation**
+
 [Installing Unity](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-unity)
 
 [Installing Github Desktop](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Installing-Github-Desktop)
 
 [Installing Git CLI and LFS](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#installing-Git-CLI-and-LFS)
 
+**Configuration**
+
+[Tool Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Tool-Configuration)
+
+[Repository Configuration](https://sdsu-gco.github.io/How%20to%20configure%20git%20for%20unity.html#Repository-Configuration)
+
+
+
+# Downloads and Installations
 
 ## Installing Unity
 
-GCO recomends managing unity installs with unity hub.  If you know you don't use unity hub you can skip this step.
+GCO recomends managing unity installs with unity hub.  If you know you don't use unity hub you can skip the Unity Hub step.
 
 ### Unity Hub
 
-Visit 
-[Download Unity Hub](https://unity3d.com/get-unity/download)
-and download Unity Hub. ***The download button is to the right of the standard unity install***.  Once downloaded launch the executable and follow the installation wizard.
+Visit [Download Unity Hub](https://unity3d.com/get-unity/download)and download Unity Hub. ***The download button is to the right of the standard unity install***.  Once downloaded launch the executable and follow the installation wizard.
+
 ![Unity Hub Download](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/UnityHubDownload.png)
 
 ### Unity Game Engine
 
-Visit 
-[Download Game Engine](https://unity3d.com/get-unity/download/archive)
-and download the appropriate version of Unity for your organization by clicking the "**Unity Hub**" button. ***In this case we will use Unity 2019.1.4f1 as our example***.  Allow the webpage to open Unity Hub.  Then simply complete the installation and follow any prompts from Unity Hub.
+Visit [Download Game Engine](https://unity3d.com/get-unity/download/archive)and download the appropriate version of Unity for your organization by clicking the "**Unity Hub**" button. ***In this case we will use Unity 2019.1.4f1 as our example***.  Allow the webpage to open Unity Hub.  Then simply complete the installation and follow any prompts from Unity Hub.
+
 ![Unity Game Engine Download](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/UnityGameEngineDownload.png)
 
 ## Installing Github Desktop
-Visit 
-[Download Github Desktop](https://desktop.github.com)
-and download the installer for your system and follow the installation wizard.
+Visit [Download Github Desktop](https://desktop.github.com) and download the installer for your system and follow the installation wizard.
+  
 ![Github Desktop](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GithubDesktop.png)
 
 ## Installing Git CLI and LFS
 
 ### Git
-Download then install 
-[Git CLI](https://git-scm.com)
-***Note that on windows some GCO members prefer to use git from CMD.EXE.  If you would like this make sure to select it at installation***
+Download then install [Git CLI](https://git-scm.com) ***Note that on windows some GCO members prefer to use git from CMD.EXE.  If you would like this make sure to select it at installation***
+
 ![Git CLI](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitCLI.png)
 
 ### LFS
 Download then install [Git LFS](https://git-lfs.github.com).  This tool allows for large asset files such as sounds, images, and other large files to be stored more efficiently.
+
 ![Git LFS](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/GitLFS.png)
 
 ##
+
+# Configuration
 
 ## Tool Configuration
 
@@ -63,6 +73,7 @@ This portion of the configuration must be completed for each repository.  First,
 ![Open CLI](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/OpenCLI.png)
 
 Then Type `git lfs install` and hit enter as shown below:
+
 ![git install lfs](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/installGitLFS.png)
 
 ### .gitignore and .gitattributes
@@ -70,6 +81,7 @@ Then Type `git lfs install` and hit enter as shown below:
 You should include a .gitignore to tell git not to sync unneccisary/temporary files and user specific files. You should also use a .gitattributes file to control what files are managed by lfs.  These are the [.gitignore(CLICK ME!)](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Files/gitignore.txt) and [.gitattributes(CLICK ME!)](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Files/gitattributes.txt) that GCO uses.  Simply rename them from "**gitignore.txt**" to "**.gitignore**" and from "**gitattributes.txt**" to "**.gitattributes**", then add them to the root directory of your repositoy(found by clicking show in explorer in github desktop) as shown:
 
 ![Open Repo Root Directory](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/showInExplorer.png)
+
 ![Add .gitignore and .gitAttributes](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/AddConfigFiles.png)
 
 
