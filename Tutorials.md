@@ -85,7 +85,7 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 **Sculpting**
 
-[Introduction: Sculpting in Blender (Tutorial EN)}(https://www.youtube.com/watch?v=tZnUgt659oI)
+[Introduction: Sculpting in Blender (Tutorial EN)](https://www.youtube.com/watch?v=tZnUgt659oI)
 
 [Lizard Mage: Modelling, Texturing, Rigging (Blender Timelapse)](https://www.youtube.com/watch?v=6lqak2bFkpA)
 
