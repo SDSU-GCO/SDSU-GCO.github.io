@@ -155,3 +155,5 @@ In project settings be sure to set meta files to be visible and force text seria
 
 # Usage
 For further useage instructions please see: [How To GIT Better](https://sdsu-gco.github.io/How%20to%20git%20better.html)
+
+For GUI tutorials please see the Version Control section of [Tutorials](https://sdsu-gco.github.io/Tutorials.html)
