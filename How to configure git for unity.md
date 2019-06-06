@@ -71,7 +71,7 @@ Download then install [TortoiseGit](https://tortoisegit.org/).  This tool allows
 
 Open "**C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Tools/**" or your custom unity install path and open "**mergespecfile.txt**"  Add these lines to it:
 
-```bat
+```cmd
 unity use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 prefab use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
 cs use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"
@@ -84,7 +84,7 @@ If "**unity use...**" and/or "**prefab use...**" already exist simply delete the
 ### UnityYamlMerge
 
 Open your "**.gitconfig**" file and add these lines to it:
-```gitconfig
+```ini
     [merge]
     tool = unityyamlmerge
 
