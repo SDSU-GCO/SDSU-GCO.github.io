@@ -67,5 +67,9 @@ Then Type `git lfs install` and hit enter as shown below:
 
 ### .gitignore and .gitattributes
 
-You should include a .gitignore to tell git not to sync unneccisary/temporary files and user specific files. You should also use a .gitattributes file to control what files are managed by lfs.  These are the [.gitignore(CLICK ME!)] and [.gitattributes(CLICK ME!)] that GCO uses.
+You should include a .gitignore to tell git not to sync unneccisary/temporary files and user specific files. You should also use a .gitattributes file to control what files are managed by lfs.  These are the [.gitignore(CLICK ME!)](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Files/gitignore.txt) and [.gitattributes(CLICK ME!)](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Files/gitattributes.txt) that GCO uses.  Simply rename them from "**gitignore.txt**" to "**.gitignore**" and from "**gitattributes.txt**" to "**.gitattributes**", then add them to the root directory of your repositoy(found by clicking show in explorer in github desktop) as shown:
+
+![Open Repo Root Directory](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/showInExplorer.png)
+![Add .gitignore and .gitAttributes](https://github.com/SDSU-GCO/SDSU-GCO.github.io/raw/master/Images/AddConfigFiles.png)
+
 
