@@ -84,7 +84,7 @@ If "**unity use...**" and/or "**prefab use...**" already exist simply delete the
 ### UnityYamlMerge
 
 Open your "**.gitconfig**" file and add these lines to it:
-```ini
+```gitconfig
     [merge]
     tool = unityyamlmerge
 
