@@ -110,7 +110,7 @@ If "**unity use...**" and/or "**prefab use...**" already exist simply delete the
 
 ###  UnityYamlMerge
 
-Open your "**.gitconfig**" file and add these lines to it:
+Open your "**.gitconfig**" file and add these lines to it.  Your get config can be found at your user directory.  On windows this is typically "**C:\Users\UserName\\**" where "**UserName**" is replaced with your username.
 ```ini
 [merge]
 tool = unityyamlmerge
