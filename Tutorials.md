@@ -24,20 +24,36 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 # Unity
 
+**Reference Documents**
+
 [Unity API](https://docs.unity3d.com/ScriptReference/)
 
-[Making a Visual Novel for Free \[SERIES\]](https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6)
+[Order of Execution for Event Functions on the Same Object](https://docs.unity3d.com/Manual/ExecutionOrder.html)
+
+[Order of Execution for Event Functions on different objects](https://forum.unity.com/threads/onenable-before-awake.361429/)
+
+**Video Tutorials**
 
 [Brakeys' Videos](https://www.youtube.com/user/Brackeys/videos)
 
 [Unity3d College](https://www.youtube.com/channel/UCX_b3NNQN5bzExm-22-NVVg/videos)
 
+[How to Coroutine in Unity](https://www.youtube.com/watch?v=qolMYyq0nX0)
+
+[Unity 5 - IEnumerator Demo(Coroutines)- How to add a Timer/Delay](https://www.youtube.com/watch?v=lrmNnwhOjgM)
+
+[Scriptable Objects](https://learn.unity.com/tutorial/introduction-to-scriptable-objects?signup=true#5cf187b7edbc2a31a3b9b123)
+
 [Unity For Beginners(OLD-ish)](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)
+
+[Making a Visual Novel for Free \[SERIES\]](https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6)
 
 [Unity 2D RPG Tutorial(OLD)](https://www.youtube.com/watch?v=NNpLsimyu3I&list=PL_4rJ_acBNMH3SExL3yIOzaqj5IP5CJLC)
 
 
 # Blender(2.79)
+
+**Begginner tutorials**
 
 [Blender Beginner Tutorial Series](https://www.youtube.com/watch?v=d5luANNKuEc&list=PLs2aOcA-EaLNX5j2yxVQhEBpFgD3zDR9P&index=1)
 
@@ -45,6 +61,7 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 [Intermediate Blender Tutorial Series](https://www.youtube.com/watch?v=yi87Dap_WOc&list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a)
 
+**RPG Graphics(Charachter and outfit)**
 
 - [RPG Graphics(Charachter and outfit) 1](https://youtu.be/aAO4C_8y0w8)
   
@@ -66,6 +83,8 @@ Meld can visually show diffs and visually resolve text merge conflicts.
   
 - [RPG Graphics(Charachter and outfit) 10](https://youtu.be/4p5W9fShkCo)
 
+**Sculpting**
+
 [Introduction: Sculpting in Blender (Tutorial EN)}(https://www.youtube.com/watch?v=tZnUgt659oI)
 
 [Lizard Mage: Modelling, Texturing, Rigging (Blender Timelapse)](https://www.youtube.com/watch?v=6lqak2bFkpA)
@@ -73,6 +92,8 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 [Nokado Katoji](https://www.youtube.com/channel/UC9oMeN2TPWsKveESiOFad3Q/videos)
 
 [Yan Sculpts](https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos)
+
+**Advanced**
 
 [Sculpting of Dragon's head (Soft: Blender 2.74)](https://www.youtube.com/watch?v=LBtt6n0sah0)
 
