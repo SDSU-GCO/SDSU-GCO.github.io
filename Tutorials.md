@@ -108,4 +108,4 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 # Other
 [PhotoGrametry](https://www.youtube.com/watch?v=k4NTf0hMjtY) - 3D scan an object from real life with lots of photos, and convert it to a mesh + texture!
 
-[platformer_movement] (https://www.youtube.com/watch?v=yorTG9at90g) - Understanding platforming movement with Celeste's Madeline
+[platformer movement](https://www.youtube.com/watch?v=yorTG9at90g) - Understanding platforming movement with Celeste's Madeline
