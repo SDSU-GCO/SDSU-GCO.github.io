@@ -117,6 +117,7 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 [Daniel Kreuter](https://www.youtube.com/user/MrLasla/videos)
 
 # 2D Digital Art Turorials
+
 [Perspective Drawing](https://youtu.be/upxBGNcryRs)
 
 [Animating a Fox Trotting](https://youtu.be/yl3IX6hgNss)
