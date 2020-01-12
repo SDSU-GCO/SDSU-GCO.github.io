@@ -116,6 +116,31 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [Daniel Kreuter](https://www.youtube.com/user/MrLasla/videos)
 
+# 2D Digital Art Turorials
+[Perspective Drawing](https://youtu.be/upxBGNcryRs)
+
+[Animating a Fox Trotting](https://youtu.be/yl3IX6hgNss)
+
+[Clean Line Art[Digital Inking Tips]](https://youtu.be/NBE-RTFkXDk)
+
+[12 Principles Of Animation](https://youtu.be/uDqjIdI4bF4)
+
+[So you wanna make pixel art](https://youtu.be/wdz2IIuTBbs)
+
+[Aesprite Tilesets](https://youtu.be/btnH0x7_1g8)
+
+[Pyxel - Tilesets](9https://youtu.be/_rSK6u4G1zQ0)
+
+[Krita - Tilesets](https://www.youtube.com/watch?v=3KNj6g9jHeU)
+
+[GIMP - Seemless Pattern](https://youtu.be/TKhs7F0hAik)
+
+[Common Pixel Art "Mistakes"](https://youtu.be/R44hZgtqMI8)
+
+[Ethan Becker](https://www.youtube.com/user/ToBelgium/videos)
+
+[Perspective Drawing]()
+
 # Other
 [PhotoGrametry](https://www.youtube.com/watch?v=k4NTf0hMjtY) - 3D scan an object from real life with lots of photos, and convert it to a mesh + texture!
 
