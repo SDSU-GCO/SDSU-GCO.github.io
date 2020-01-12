@@ -138,6 +138,8 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [GIMP - Seemless Pattern](https://youtu.be/TKhs7F0hAik)
 
+[Howard Wimshurst](https://www.youtube.com/user/HowardWimshurst/videos)
+
 [Ethan Becker](https://www.youtube.com/user/ToBelgium/videos)
 
 # Other
