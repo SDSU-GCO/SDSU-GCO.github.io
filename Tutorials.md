@@ -22,6 +22,13 @@ Meld can visually show diffs and visually resolve text merge conflicts.
 
 [Meld Tutorial](https://www.youtube.com/watch?v=rBep9HWsOHY)
 
+# C#
+[Unity API](https://www.youtube.com/watch?v=GhQdlIFylQ8)
+Skip these sections in the video, we don't use them often in unity.  We will rarely need to handle exceptions(And we discurage throwing them), and we can use different singleton patterns in unity that are superior to statics.
+⌨️ (3:13:53) Exception Handling
+⌨️ (4:06:49) Static Class Attributes
+⌨️ (4:14:45) Static Methods & Classes
+
 # Unity
 
 **Reference Documents**
