@@ -128,6 +128,8 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [So you wanna make pixel art](https://youtu.be/wdz2IIuTBbs)
 
+[Common Pixel Art "Mistakes"](https://youtu.be/R44hZgtqMI8)
+
 [Aesprite Tilesets](https://youtu.be/btnH0x7_1g8)
 
 [Pyxel - Tilesets](9https://youtu.be/_rSK6u4G1zQ0)
@@ -135,8 +137,6 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 [Krita - Tilesets](https://www.youtube.com/watch?v=3KNj6g9jHeU)
 
 [GIMP - Seemless Pattern](https://youtu.be/TKhs7F0hAik)
-
-[Common Pixel Art "Mistakes"](https://youtu.be/R44hZgtqMI8)
 
 [Ethan Becker](https://www.youtube.com/user/ToBelgium/videos)
 
