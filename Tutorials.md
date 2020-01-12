@@ -65,6 +65,17 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [Unity 2D RPG Tutorial(OLD)](https://www.youtube.com/watch?v=NNpLsimyu3I&list=PL_4rJ_acBNMH3SExL3yIOzaqj5IP5CJLC)
 
+# Blender (2.80)
+
+[Blender Guru](https://www.youtube.com/playlist?list=PLjEaoINr3zgH1JI7FtPX_Q9OGFhP-HCUV)
+
+[Blender Fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
+
+[Making a Bathroom](https://www.youtube.com/watch?v=lWio94317E0&list=PLbgzH4G34vWoX5ZyvDfwCxh3IlTAdsCln)
+
+[Misc](https://www.youtube.com/playlist?list=PL4LMY-0urQYUCkYgK78OprpF7OKgo-hs2)
+
+[Blender Asset Creation Tutorials](https://www.youtube.com/playlist?list=PL_EHvy49-b-MxWxpc6q11Yq9NV1pJTR8R)
 
 # Blender(2.79)
 
