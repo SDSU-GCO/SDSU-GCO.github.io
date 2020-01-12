@@ -73,6 +73,8 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [Making a Bathroom](https://www.youtube.com/watch?v=lWio94317E0&list=PLbgzH4G34vWoX5ZyvDfwCxh3IlTAdsCln)
 
+[Text](https://www.youtube.com/playlist?list=PLd-ZjLmoq7PB8gmhuwSliY14lZM9TS1Ic)
+
 [Misc](https://www.youtube.com/playlist?list=PL4LMY-0urQYUCkYgK78OprpF7OKgo-hs2)
 
 [Blender Asset Creation Tutorials](https://www.youtube.com/playlist?list=PL_EHvy49-b-MxWxpc6q11Yq9NV1pJTR8R)
