@@ -71,6 +71,8 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [Blender Fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 
+[Get good at blender 2.8](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
+
 [Making a Bathroom](https://www.youtube.com/watch?v=lWio94317E0&list=PLbgzH4G34vWoX5ZyvDfwCxh3IlTAdsCln)
 
 [Text](https://www.youtube.com/playlist?list=PLd-ZjLmoq7PB8gmhuwSliY14lZM9TS1Ic)
