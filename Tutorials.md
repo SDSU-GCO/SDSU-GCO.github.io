@@ -73,6 +73,20 @@ Artists/level-designers only need to care about parts 1(Intro to Unity GUI), 2(S
 
 [Get good at blender 2.8](https://www.youtube.com/playlist?list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN)
 
+[Blender 2.82 Rigging Tutorial (In 2 Minutes)](https://www.youtube.com/watch?v=PFaqjwpGxOc)
+
+[Blender 2.82 : Advanced Rigging In 60 Seconds (Double Joints)](https://youtu.be/JbQX8C3lrHE)
+
+[Blender 2.82 : Inverse Kinematics In 60 Seconds! (Arm Rig)](https://www.youtube.com/watch?v=0bFrZn8xlLw)
+
+[Blender 2.82 : Advanced Foot Pivot IK Rig (In 60 Seconds~)](https://www.youtube.com/watch?v=voYM3yyeZP4)
+
+[Blender 2.8 Inverse Kinematics In 2 Minutes](https://www.youtube.com/watch?v=Pt3-mHBCoQk)
+
+[Blender 2.8 Inverse Kinematics Shortcuts](https://www.youtube.com/watch?v=Cu5TozPfsD4)
+
+[Blender 2.8 Mirror Armature In 20 Seconds](https://youtu.be/ovzG9T5KKso)
+
 [Making a Bathroom](https://www.youtube.com/watch?v=lWio94317E0&list=PLbgzH4G34vWoX5ZyvDfwCxh3IlTAdsCln)
 
 [Text](https://www.youtube.com/playlist?list=PLd-ZjLmoq7PB8gmhuwSliY14lZM9TS1Ic)
